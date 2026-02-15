@@ -1,13 +1,19 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
+  "itemGroup.jujutsucraft": "Example Mod Tab",
   "block.examplemod.example_block": "Example Block",
   "item.examplemod.example_item": "Example Item",
-
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
   "examplemod.configuration.items": "Item List",
   "examplemod.configuration.logDirtBlock": "Log Dirt Block",
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "examplemod.configuration.magicNumber": "Magic Number",
+
+
+
+  "item.jujutsucraft.cursed_iron": "Cursed Iron",
+  "creativetab.jujutsucraft.cursed_items": "Cursed Items",
+  "block.jujutsucraft.cursed_diamond_ore": "Cursed Diamond Ore",
+  "block.jujutsucraft.cursed_iron_ore": "Cursed Iron Ore"
 }
