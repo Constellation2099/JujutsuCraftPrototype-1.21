@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "jujutsucraft:block/malefic_catalyst_block"
-  }
-}

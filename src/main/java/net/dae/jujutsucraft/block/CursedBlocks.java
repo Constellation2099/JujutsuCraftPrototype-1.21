@@ -31,7 +31,7 @@ public class CursedBlocks {
 
 
     public static final DeferredBlock<Block> MALEFIC_CATALYST_BLOCK = registerBlock("malefic_catalyst_block",
-            () -> new MaleficCatalystBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new MaleficCatalystBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
