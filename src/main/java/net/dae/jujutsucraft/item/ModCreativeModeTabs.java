@@ -22,8 +22,11 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.jujutsucraft.cursed_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(CursedItems.CURSED_IRON);
+                        output.accept(CursedItems.CURSED_DIAMOND);
                         output.accept(CursedBlocks.CURSED_DIAMOND_ORE);
                         output.accept(CursedBlocks.CURSED_IRON_ORE);
+                        output.accept(CursedBlocks.MALEFIC_CATALYST_BLOCK);
+                        output.accept(CursedItems.PURIFICATION_TALISMAN);
 
                     }).build());
 

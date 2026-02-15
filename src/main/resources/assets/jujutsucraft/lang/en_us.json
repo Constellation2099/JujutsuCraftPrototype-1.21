@@ -11,9 +11,13 @@
   "examplemod.configuration.magicNumber": "Magic Number",
 
 
-
+  "item.jujutsucraft.purification_talisman": "Purification Talisman",
   "item.jujutsucraft.cursed_iron": "Cursed Iron",
+  "item.jujutsucraft.cursed_diamond": "Cursed Diamond",
   "creativetab.jujutsucraft.cursed_items": "Cursed Items",
   "block.jujutsucraft.cursed_diamond_ore": "Cursed Diamond Ore",
-  "block.jujutsucraft.cursed_iron_ore": "Cursed Iron Ore"
+  "block.jujutsucraft.cursed_iron_ore": "Cursed Iron Ore",
+  "block.jujutsucraft.malefic_catalyst_block": "Malefic Catalyst",
+
+  "tooltip.jujutsucraft.malefic_catalyst_block.tooltip": "Imbues Cursed Energy to Minerals to create Cursed Minerals"
 }

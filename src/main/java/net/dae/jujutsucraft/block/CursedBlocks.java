@@ -1,6 +1,7 @@
 package net.dae.jujutsucraft.block;
 
 import net.dae.jujutsucraft.JujutsuCraft;
+import net.dae.jujutsucraft.block.custom.MaleficCatalystBlock;
 import net.dae.jujutsucraft.item.CursedItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -28,6 +29,9 @@ public class CursedBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHER_GOLD_ORE)));
 
+
+    public static final DeferredBlock<Block> MALEFIC_CATALYST_BLOCK = registerBlock("malefic_catalyst_block",
+            () -> new MaleficCatalystBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
